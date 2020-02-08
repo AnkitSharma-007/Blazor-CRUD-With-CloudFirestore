@@ -1,0 +1,94 @@
+﻿@page "/employeerecords"
+@inherits EmployeeDataModel
+
+<h1>Employee Data</h1>
+<p>CRUD operation using Blazor and Google Cloud Firestore</p>
+
+<div class="row">
+    <div class="col-md-4">
+        <a href='/employee/add' class="btn btn-primary" role="button"><i class="fa fa-user-plus"></i> Add Employee</a>
+    </div>
+    <div class="input-group col-md-4 offset-md-4">
+        <input type="text" class="form-control" placeholder="Search employee by name" @bind="SearchString" />
+        <div class="input-group-append">
+            <button class="btn btn-info" @onclick="SearchEmployee">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+</div>
+<br />
+@if (empList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Designation</th>
+                <th>City</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in empList)
+            {
+                <tr>
+                    <td>@emp.EmployeeName</td>
+                    <td>@emp.Gender</td>
+                    <td>@emp.Designation</td>
+                    <td>@emp.CityName</td>
+                    <td>
+                        <a href='/employee/edit/@emp.EmployeeId' class="btn btn-outline-dark" role="button"> <i class="fa fa-pencil-square-o"></i> Edit</a>
+                        <button class="btn btn-outline-danger" data-toggle="modal" data-target="#deleteEmpModal"
+                                @onclick="(()=>DeleteConfirm(emp.EmployeeId))">
+                            <i class="fa fa-trash-o"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<div class="modal fade" id="deleteEmpModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Confirm Delete !!!</h3>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <tr>
+                        <td>Name</td>
+                        <td>@emp.EmployeeName</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>@emp.Gender</td>
+                    </tr>
+                    <tr>
+                        <td>Designation</td>
+                        <td>@emp.Designation</td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>@emp.CityName</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" @onclick="(async () => await DeleteEmployee(emp.EmployeeId))" data-dismiss="modal">Delete</button>
+                <button data-dismiss="modal" class="btn btn-light">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

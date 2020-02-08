@@ -1,9 +1,0 @@
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\bin\Debug\netstandard2.0\BlazorWithFirestore.Shared.deps.json
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\bin\Debug\netstandard2.0\BlazorWithFirestore.Shared.dll
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\bin\Debug\netstandard2.0\BlazorWithFirestore.Shared.pdb
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.csprojAssemblyReference.cache
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.csproj.CoreCompileInputs.cache
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.AssemblyInfoInputs.cache
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.AssemblyInfo.cs
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.dll
-C:\Users\asharma2\source\repos\BlazorWithFirestore\BlazorWithFirestore.Shared\obj\Debug\netstandard2.0\BlazorWithFirestore.Shared.pdb

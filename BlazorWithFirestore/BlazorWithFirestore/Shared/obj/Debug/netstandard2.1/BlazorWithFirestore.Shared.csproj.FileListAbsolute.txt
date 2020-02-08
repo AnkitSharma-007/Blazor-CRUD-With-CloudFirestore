@@ -1,0 +1,8 @@
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\bin\Debug\netstandard2.1\BlazorWithFirestore.Shared.deps.json
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\bin\Debug\netstandard2.1\BlazorWithFirestore.Shared.dll
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\bin\Debug\netstandard2.1\BlazorWithFirestore.Shared.pdb
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\obj\Debug\netstandard2.1\BlazorWithFirestore.Shared.csprojAssemblyReference.cache
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\obj\Debug\netstandard2.1\BlazorWithFirestore.Shared.AssemblyInfoInputs.cache
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\obj\Debug\netstandard2.1\BlazorWithFirestore.Shared.AssemblyInfo.cs
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\obj\Debug\netstandard2.1\BlazorWithFirestore.Shared.dll
+E:\Projects\BlazorUpdates\Blazor-CRUD-With-CloudFirestore\BlazorWithFirestore\BlazorWithFirestore\Shared\obj\Debug\netstandard2.1\BlazorWithFirestore.Shared.pdb
